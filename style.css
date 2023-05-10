@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+  
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-section{
+    padding: 20px;
+}
+
+.image-container{
+    height: 500px;
+    background-image: url("https://hoteldellago.biz/wp-content/uploads/2019/09/cropped-Sfondo_banchina2-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-size: 64px;
+    font-family: 'Prata', serif;
+    color:#b3ad9f;
+    margin-bottom: 0;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'Prata', serif;
+    margin-top: 0;
+    color:#71522c;
+    margin-bottom: 0;
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-bottom:1px solid #dfdfdf;
+}
+
+.lista{
+    text-decoration: none;
+    color: #d9a76b;
+}
+
+p{
+    font-weight: 600;
+    font-style: italic;
+}
+
+h6{
+    padding: 22px;
+    margin-bottom: 0;
+    margin-top: 56px;
+    color: white;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #d9a76b,#b3ad9f);
+}
+
+footer{
+    background-color: black;
+    padding: 16px;
+}
+
+footer a{
+    color: white;
+    justify-content: center;
+    display: flex;
+}
